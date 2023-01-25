@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(6, 6, 58),rgb(2, 1, 6));
+}
+.moon{
+    background-color:rgb(218, 218, 223);
+    position:absolute;
+    margin:auto;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    box-shadow: 0 0 20px white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.moonstain{
+    width: 15px;
+    height: 15px;
+    background-color:rgb(215, 213, 213);
+    position: relative;
+    left: 10px;
+    top: 15px;
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+#crcl{
+    height: 3px;
+    width: 3px;
+    background-color: rgb(218, 218, 223);
+    box-shadow: 0 0 30px white;
+    position: absolute;
+    border-radius: 50%;
+    animation: blink 4s infinite;
+}
+@keyframes blink{
+    0%{
+        scale: 0%;
+    }
+    50%{
+        scale: 100%;
+    }
+    100%{
+        scale: 0%;
+    }
+}
