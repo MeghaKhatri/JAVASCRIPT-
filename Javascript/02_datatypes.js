@@ -1,6 +1,6 @@
 // data type ->[define which type of data is stored] two types of datatypes
 
-// ---PRIMITIVE DATA-TYPES---
+// ---PRIMITIVE DATA-TYPES-----
 // null
 let a = null;
 // number
