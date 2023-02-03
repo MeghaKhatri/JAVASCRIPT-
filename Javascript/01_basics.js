@@ -5,7 +5,7 @@ var a=1;
 var a=2;
 console.log(a);
 
-//2. let -> [introduce in ES6] it is a block scope
+//2. let -> [introduce in ES6]  it is a block scope
 let x=5;
 x=3;
 let y=5;
